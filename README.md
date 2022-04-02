@@ -26,4 +26,7 @@ if ! zplug check --verbose; then
 fi                                                                  
                           
 zplug load
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"    
+bindkey ',' autosuggest-accept
 ```
